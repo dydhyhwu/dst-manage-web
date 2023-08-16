@@ -8,6 +8,7 @@
         <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
         <div class="wrapper">
+            <q-btn color="primary">Click Me</q-btn>
             <HelloWorld msg="You did it!" />
 
             <nav>
