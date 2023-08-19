@@ -40,6 +40,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@core/badge':
+        specifier: workspace:^
+        version: link:../../core/badge
       '@quasar/extras':
         specifier: ^1.16.5
         version: 1.16.5
@@ -89,6 +92,12 @@ importers:
       vue-tsc:
         specifier: ^1.8.6
         version: 1.8.6(typescript@5.1.6)
+
+  core/badge:
+    dependencies:
+      typescript:
+        specifier: ~5.1.6
+        version: 5.1.6
 
 packages:
 
