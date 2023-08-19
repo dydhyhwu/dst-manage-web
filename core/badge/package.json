@@ -1,0 +1,22 @@
+{
+  "name": "core-badge",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "~5.1.6"
+  }
+}
